@@ -1,0 +1,68 @@
+/*
+//////////////////////////////////////////////////////////
+///// TOC
+//////////////////////////////////////////////////////////
+*/
+
+h1.contents-title {
+  @include color-1(color);
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin: 0 0 0.5em 0;
+  padding: 1.5em 0 0.125em 0;
+  clear: both;
+}
+
+#listBrief,
+#listDetail {
+	list-style-type: none;
+	a {
+		text-decoration: none;
+		@include black(color);
+	}
+	.fm-h1, .ch-title, .bm-h1 {
+	  @include color-1(color);
+	  font-size: 18px;
+	  font-weight: bold;
+	  font-style: normal;
+	  margin: 1.5em 0 3em 0;
+	  clear: none;		
+	}
+	.ch-h1-un, .ch-h1, .ch-h1-eoc, .bm-h1 {
+	  @include color-1(color);
+	  font-size: 18px;
+	  font-weight: bold;
+	  font-style: italic;
+	  margin: 1.5em 0 1.5em 0;
+	  clear: none;		
+	}
+	.ch-h2, .ch-h2-eoc, .bm-h2 {
+	  @include color-1(color);
+	  font-size: 16px;
+	  font-weight: normal;
+	  font-style: normal;
+	  margin: 1.5em 0 0.5em .5em;
+	  clear: both;		
+	}
+}
+
+.toc-level1a a:after {
+	content: leader('.') target-counter(attr(href), page, lower-roman);
+}
+
+.toc-level1 a:after,
+.toc-level1b a:after {
+	content: leader('.') target-counter(attr(href), page, decimal);
+}
+
+.toc-level2 a:after,
+.toc-level3 a:after {
+	content: target-counter(attr(href), page, decimal);
+	margin-left: 8px;
+}
+
+span.hidden {
+	display: none;
+}

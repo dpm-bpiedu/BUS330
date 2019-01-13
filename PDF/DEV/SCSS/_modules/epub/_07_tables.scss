@@ -1,0 +1,112 @@
+/*
+//////////////////////////////////////////////////////////
+///// Tables
+//////////////////////////////////////////////////////////
+*/
+
+/* Table Heading Styles */
+h4.table-name {
+  @include color-1(color);
+  margin-bottom: 0.75em;
+  clear: both;  
+  font-weight: bold;
+}
+
+h5.table-title {
+  @include black(color);
+  margin-bottom: 0.5em;
+  clear: both;
+  font-weight: bold;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  margin: 0 auto 1em;
+  max-width: 100%;
+}
+
+table p.tx, table p.tx-i, table p.tx-b, table p.ext {
+  text-align: left;
+}
+
+td, th {
+  border: 1px solid;
+  padding: 0.25em 0.5em;
+  @include lightGray(border);
+}
+
+td {
+  vertical-align: top;
+}
+
+td.table-header,
+th.table-header {
+  @include color-2(background);
+  vertical-align: bottom;
+}
+
+td.table-subhead,
+th.table-subhead {
+  @include color-2(background);
+}
+
+td.table-cell,
+td.table-cell-reg {
+  @include white(background)
+}
+
+td.table-cell-alt {
+  @include offWhite(background);
+}
+
+tr:nth-child(even) td.table-cell {
+  @include offWhite(background);
+}
+
+td.no-border {
+  border: none !important;
+}
+
+td.border {
+  @include lightGray(border);
+}
+
+table.no-collapse {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Table Text Styles */
+p.table-footnote {
+  @include darkGray(color);
+  font-size: 12px;
+}
+
+p.table-head {
+  @include white(color);
+  margin: 0;
+}
+
+p.table-head-center {
+  @include white(color);
+  text-align: center;
+  margin: 0;
+}
+
+table {
+	p.tx, p.tx-center, p.tx-left, p.tx-right, p.tx-1, p.tx-b {
+		margin: 0;
+	}
+} 
+
+table {
+	p:last-of-type, ul:last-of-type, ol:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+

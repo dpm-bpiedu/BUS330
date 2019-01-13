@@ -1,0 +1,153 @@
+/*
+//////////////////////////////////////////////////////////
+///// CO
+//////////////////////////////////////////////////////////
+*/
+
+div.co {
+  background-color: transparent;
+  page-break-inside: avoid;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  overflow: hidden;
+}
+
+div.co-box {
+  @include color-4(color);
+  @include color-1(background);
+  position: relative;
+  padding: 2em;
+}
+
+div.co-intro {
+  @include color-5(background);
+  padding: 2em;
+  h2 {
+    padding-bottom: 0.5em;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0.75em;
+  }
+  p.answer {
+	@include darkGray(color);
+    font-style: italic;
+  }
+}
+
+div.co-cn {
+  float: left;
+  padding: 0 2em 1em 0;
+}
+
+div.co-ct {
+  margin-bottom: 1.5em;
+}
+
+div.co-photo {
+  clear: both;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+div.co-cr {
+  padding: 0.5em 0 1em 0;
+  clear: both;
+  p.credit {
+	@include color-5(color);
+    margin: 0;
+  }
+}
+
+.co-quote {
+  margin: 3em 0 2em 0;
+  p.quote {
+    font-size: 26px;
+    font-style: italic;
+    text-align: right;
+  }
+}
+
+h1.ct {
+  /* Chapter Title */
+  @include color-4(color);
+  font-size: 40px;
+}
+
+h2.ct-st {
+  /* Chapter Subtitle */
+  @include color-4(color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+span.cn {
+  /* Chapter Number */
+  @include color-4(color);
+  font-size: 100px;
+  line-height: 0.85;
+  vertical-align: top;
+}
+
+/* Part Opener */
+div.po-box {
+  display: table;
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 4em;
+  border: 3px solid;
+  @include color-1(border);
+}
+
+div.po-pn {
+  display: table-cell;
+  white-space: nowrap;
+  padding-right: 2em;
+  vertical-align: top;
+}
+
+div.po-pt {
+  display: table-cell;
+  vertical-align: top;
+}
+
+div.po-outline {
+  padding-left: 2em;
+}
+
+p.po-ct {
+  @include color-1(color);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1em 0 0.5em;
+}
+
+p.po-st {
+  padding-left: 2em;
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 0.5em;
+}
+
+h1.pt {
+  /* Part Title */
+  @include color-1(color);
+  font-size: 60px;
+  font-weight: normal;
+  margin: 0;
+}
+
+span.pn {
+  /* Part Number */
+  @include color-1(color);
+  font-size: 60px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.25;
+  vertical-align: top;
+}
+
+

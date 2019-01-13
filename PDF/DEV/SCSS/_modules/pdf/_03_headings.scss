@@ -1,0 +1,92 @@
+/*
+//////////////////////////////////////////////////////////
+///// Headings
+//////////////////////////////////////////////////////////
+*/
+
+h1.h1 {
+  @include color-1(color);
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin: 0 0 0.5em 0;
+  padding: 1.5em 0 0.125em 0;
+  clear: both;
+}
+
+h2.h2 {
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 1.5em 0 1em 0;
+  clear: none;
+}
+
+h3.h3 {
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 1.5em 0 0.5em 0;
+  clear: none;
+}
+
+h4.h4 {
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 1.5em 0 0.5em 0;
+  clear: both;
+}
+
+h1.eoc-h1 {
+  @include color-1(color);
+  font-size: 20px;
+  text-align: left;
+  margin: 0 0 1em 0;
+  clear: both;
+}
+
+h2.eoc-h2 {
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1.75em 0 0.5em 0;
+  clear: both;
+}
+
+h3.eoc-h3 {
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  clear: both;
+}
+
+h2.co {
+  /* Learning Objectives and/or Chapter Outline heading */
+  @include color-1(color);
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 0 1em 0;
+  clear: both;
+  border-bottom: 2px solid;
+  border-color: $color-1-rgb;
+  border-color: $color-1-cmyk;
+}
+
+h1.part {
+  @include black(color);
+  font-size: 32px;
+  font-style: normal;
+  text-align: left;
+  margin: 1em 0 1em 0;
+  padding: 0 0 0.125em 0;
+  clear: both;
+}
+
+

@@ -1,0 +1,134 @@
+***************************************************************
+
+Data attributes for auto-generated TOC
+
+***************************************************************
+
+data-toc="fm-h1
+
+data-toc="ch-title"
+	data-ch-title="number"
+	data-ch-title="text"
+
+data-toc="ch-h1"
+
+data-toc="ch-h2"
+
+data-toc="ch-h1-eoc"
+
+data-toc="ch-h2-eoc"
+
+data-toc="bm-h1"
+data-toc="bm-h2"
+
+***************************************************************
+
+Data attributes to differentiate epub-only and print-only
+
+***************************************************************
+
+data-output="epub"
+
+data-output="print"
+
+
+//////////////////////////////////////////////////////////////
+///// FRONTMATTER ////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Data attributes are described below.
+
+
+-----------------
+data-toc="fm-h1" 
+-----------------
+
+-apply to each "h1" in front matter
+
+
+//////////////////////////////////////////////////////////////
+///// CHAPTER TITLE //////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+--------------------
+data-toc="ch-title" 
+--------------------
+
+-apply to parent container that holds chapter number and title
+
+
+
+-----------------------
+data-ch-title="number" 
+-----------------------
+
+-apply to child container that holds chapter number
+
+
+
+---------------------
+data-ch-title="text" 
+---------------------
+
+-apply to child container that holds chapter title
+
+
+
+
+//////////////////////////////////////////////////////////////
+///// CHAPTER HEADINGS ///////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+-----------------
+data-toc="ch-h1" 
+-----------------
+
+-apply to parent container that holds numbered section
+
+
+-----------------
+data-toc="ch-h2"
+-----------------
+
+-apply to chapter h2 headings
+
+
+
+
+---------------------
+data-toc="ch-h1-eoc"
+---------------------
+
+-apply to main eoc heading like "Summary & Resources"
+
+
+
+
+---------------------
+data-toc="ch-h2-eoc" 
+---------------------
+
+-apply to eoc subheadings like "Key Terms"
+
+
+
+
+-----------------
+data-toc="bm-h1" 
+-----------------
+
+-apply to backmatter main headings
+
+
+
+
+-----------------
+data-toc="bm-h2" 
+-----------------
+
+-apply to backmatter subheadings if any
+
+
+
+
+

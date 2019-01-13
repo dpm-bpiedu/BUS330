@@ -1,0 +1,146 @@
+/*
+//////////////////////////////////////////////////////////
+///// Features
+//////////////////////////////////////////////////////////
+*/
+
+/* Pull Quotes */
+div.pull-quote,
+blockquote.pull-quote {
+  float: right;
+  width: 35%;
+  padding: 1em 0;
+  margin: 0 -1em 0.5em 1em;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  @include color-6(border);
+  p.tx {
+	@include black(color);
+    margin: 0;
+    text-align: left;
+    font-style: italic;
+  }
+  img {
+    float: left;
+    width: 50px;
+    margin: 0 1em 1em 0;
+  }
+}
+
+.vignette {
+  font-style: italic;
+  p, li, h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+  }
+  i, .bi, .ui, a {
+    font-style: normal;
+  }
+}
+
+/* Box Text Styles */
+div.box-1 p.src, div.box-2 p.src, div.box-3 p.src, div.box-4 p.src, div.box-5 p.src {
+  font-style: normal;
+}
+
+div.box-1 p.src i, div.box-2 p.src i, div.box-3 p.src i, div.box-4 p.src i, div.box-5 p.src i {
+  font-weight: normal;
+  font-style: italic;
+}
+
+div.box-1 p.src b, div.box-2 p.src b, div.box-3 p.src b, div.box-4 p.src b, div.box-5 p.src b {
+  font-style: normal;
+  font-weight: bold;
+}
+
+li div.box-1, li div.box-2, li div.box-3, li div.box-4, li div.box-5 {
+  margin-left: -2.5em;
+}
+
+li li div.box-1, li li div.box-2, li li div.box-3, li li div.box-4, li li div.box-5 {
+  margin-left: -4em;
+}
+
+div.box-1 p.tx, div.box-2 p.tx, div.box-3 p.tx, div.box-4 p.tx, div.box-5 p.tx, div.box-1 p.tx-i, div.box-2 p.tx-i, div.box-3 p.tx-i, div.box-4 p.tx-i, div.box-5 p.tx-i, div.box-1 p.tx-b, div.box-2 p.tx-b, div.box-3 p.tx-b, div.box-4 p.tx-b, div.box-5 p.tx-b, div.box-1 p.ext, div.box-2 p.ext, div.box-3 p.ext, div.box-4 p.ext, div.box-5 p.ext {
+  text-align: left;
+}
+
+div.box-1 p:last-child, div.box-2 p:last-child, div.box-3 p:last-child, div.box-4 p:last-child, div.box-5 p:last-child {
+  margin-bottom: 0;
+}
+
+div.box-1:last-child, div.box-2:last-child, div.box-3:last-child, div.box-4:last-child, div.box-5:last-child {
+  margin-bottom: 0;
+}
+
+/* Box Styles */
+
+@mixin box($color) {
+  color: '#{$color}-rgb';
+  color: '#{$color}-cmyk';
+  padding: 1.5em;
+  border-radius: 1.5em;
+  margin: 2em auto;
+  float: none;
+  clear: both;
+}
+
+@mixin box($color) {
+  background-color: '#{$color}-rgb';
+  background-color: '#{$color}-cmyk';
+  padding: 1.5em;
+  border-radius: 1.5em;
+  margin: 2em auto;
+  float: none;
+  clear: both;
+}
+
+@mixin boxH1($color) {
+  color: '#{$color}-rgb';
+  color: '#{$color}-cmyk';
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  padding: 0 0 0.125em 0;
+  border: none;
+  clear: none;
+  text-align: left;
+  border-bottom: 2px solid;
+  border-color: '#{$color}-rgb';
+  border-color: '#{$color}-cmyk';
+}
+
+div.box-1 {
+  @include box(color-4);
+  h1.h1 {
+    @include boxH1(color-3);
+  }
+}
+
+div.box-2 {
+  @include box(color-7);
+  h1.h1 {
+    @include boxH1(color-1);
+  }
+}
+
+div.box-3 {
+  @include box(color-8);
+  h1.h1 {
+    @include boxH1(color-1);
+  }
+}
+
+div.box-4 {
+  @include box(red);
+  h1.h1 {
+    @include boxH1(white);
+  }
+}
+
+div.box-5 {
+  @include box(red);
+  h1.h1 {
+    @include box(white);
+  }
+}
+

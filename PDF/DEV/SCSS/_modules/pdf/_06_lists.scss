@@ -1,0 +1,80 @@
+/*
+//////////////////////////////////////////////////////////
+///// Lists
+//////////////////////////////////////////////////////////
+*/
+
+ol, ul {
+  margin-bottom: 1em;
+  padding-left: 2em;
+  overflow: hidden;
+  /* Fix for overlapping with floats */
+}
+
+/* Nested lists */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+  padding-left: 1.5em;
+  overflow: visible;
+}
+
+li {
+  padding-left: 0.5em;
+}
+
+li.bl {
+  /* Bulleted list */
+  list-style-type: disc;
+}
+
+li.nl {
+  /* Numbered List */
+  list-style-type: decimal;
+}
+
+li.ll {
+  /* Lowercase Letteres List */
+  list-style-type: lower-alpha;
+}
+
+li.ull {
+  /* Uppercase Lettered List */
+  list-style-type: upper-alpha;
+}
+
+li.pll {
+  /* Parenthetical Lettered List */
+  list-style-type: none;
+  counter-increment: item;
+}
+
+li.pll::before {
+  /* Parenthetical Lettered List Counter */
+  content: counter(item, lower-alpha) ") ";
+  display: block;
+  float: left;
+  margin-left: -2em;
+  width: 2em;
+}
+
+li.rn {
+  /* Roman Numerals List */
+  list-style-type: lower-roman;
+}
+
+li.urn {
+  /* Uppercase Roman Numerals List */
+  list-style-type: upper-roman;
+}
+
+li.ul, p.ul {
+  /* Unnumbered List */
+  list-style-type: none;
+}
+
+p.ul {
+  padding-left: 1em;
+}
