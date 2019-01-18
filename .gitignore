@@ -2,3 +2,7 @@
 EPUB/OEPS/figures/
 EPUB/OEPS/images/
 Thumbs.db
+ASSETS/
+META-INF/
+mimetype
+config.codekit3
