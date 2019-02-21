@@ -1,0 +1,75 @@
+// headings
+
+/* ----- headings ----- */
+
+h1, h2, h3, h4, h5 {
+    @include baseHeading($fontHeading);
+}
+
+h1 {
+    font-size: map-get($map: $scale, $key: h1);
+}
+
+h2 {
+    font-size: map-get($map: $scale, $key: h2);
+}
+
+h3 {
+    font-size: map-get($map: $scale, $key: h3);
+}
+
+h4 {
+    font-size: map-get($map: $scale, $key: h4);
+}
+
+h5 {
+    font-size: map-get($map: $scale, $key: h5);
+}
+
+h1.h1, h1.eoc_h1 {
+    margin-top: 0;
+    color: $color-1;
+    border-bottom: 2px solid $color-1;
+    clear: both;
+}
+
+h2.h2 {
+    padding-top: 5px;
+    color: $color-1;
+    border-top: 1px solid mix($color-1, white,30%); 
+    clear: both;
+}
+
+h2.focus {
+    @include asideCol;
+    font-size: map-get($map: $scale, $key: h5);
+    line-height: 1.45;
+    margin-top: 0;
+    .focus_lbl {
+        @include badgeSemiCircle($color-4, 7px);
+        @include badgeSemiCircle2($color-4);
+    }
+}
+
+h3.h3 {
+    @include mainCol;
+    color: $color-black;
+}
+
+h4.h4 {
+    @include mainCol;
+    color: $color-black;
+}
+
+h5.h5 {
+    @include mainCol;
+    color: $color-black;
+}
+
+
+
+
+
+
+
+

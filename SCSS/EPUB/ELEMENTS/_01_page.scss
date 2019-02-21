@@ -1,0 +1,100 @@
+// page
+
+// layout
+
+// base size = 16px;
+// right column width = 576 px (16*36) 58%;
+// left column width = 388 px 40%;
+// left column with margin = 373px 38%;
+
+//$mainCol: 576px;
+//$asideCol: 388px;
+//$asideCol-
+
+$mainWidth: 58%;
+$mainMax: 576;
+
+$asideWidth: 40%;
+$asideMax: 373px;
+
+@mixin mainCol {
+	width: 58%;
+	max-width: 576px;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+@mixin mainCol-L {
+	width: 58%;
+	max-width: 576px;
+	margin-right: auto;
+	margin-left: 0;
+}
+
+@mixin clearMainCol($width,$mWidth,$mR,$mL) {
+	width: $width;
+	max-width: $mWidth;
+	margin-right: $mR;
+	margin-left: $mL;
+}
+
+@mixin asideCol {
+	width: 40%;
+	max-width: 373px;
+	padding-right: 15px;
+	margin-left: 0;
+	margin-right: 15px;	
+	float: left;
+}
+
+@mixin asideCol-R {
+	width: 40%;
+	max-width: 373px;
+	padding-left: 15px;
+	margin-right: 0;
+	margin-left: 15px;	
+	float: right;
+}
+
+@mixin clearAsideCol($width,$mWidth,$mR,$mL,$pR) {
+	width: $width;
+	max-width: $mWidth;
+	margin-right: $mR;
+	margin-left: $mL;
+	padding-right: $pR;
+	float: none;
+	
+}
+
+$elemM: 40px;
+$elemM-XL: 60px;
+
+
+
+$pad: 15px;
+$pad-XL: 30px;
+
+@mixin pad {
+	padding: $pad, $pad-XL;
+}
+
+@mixin verticalM($margin) {
+	margin-top: $margin;
+	margin-bottom: $margin;
+}
+
+@mixin elemCenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

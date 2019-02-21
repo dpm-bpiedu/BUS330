@@ -1,0 +1,99 @@
+// variables, mixins, and functions
+
+// colors
+
+$color-1: map-get($map: $color, $key: a);
+$color-2: map-get($map: $color, $key: b);
+$color-2a: map-get($map: $color, $key: c);
+$color-3: map-get($map: $color, $key: d);
+$color-4: map-get($map: $color, $key: e);
+$color-5: map-get($map: $color, $key: f);
+
+// grayscale
+
+$color-white: #ffffff;
+$color-black: map-get($map: $gs, $key: a);
+$gray-1: map-get($map: $gs, $key: b);
+$gray-2: map-get($map: $gs, $key: c);
+$gray-3: map-get($map: $gs, $key: d);
+$gray-4: map-get($map: $gs, $key: e);
+$gray-5: map-get($map: $gs, $key: f);
+
+// rgba convert
+@mixin bg-opacity($color, $opacity: 0.3) {
+    background-color: $color; 
+    background-color: rgba($color, $opacity);
+}
+
+// fonts
+
+$fontHeading: $lato;
+$fontBody: $calibri;
+$fontAccent: $timesnr;
+
+// style 
+
+$radius: 20px;
+
+// badges 
+
+// use for table focus questions and figures
+@mixin badgeSemiCircle($color, $top) {
+    position: relative;
+    font-weight: bold;
+    color: $color;
+    font-size: map-get($map: $scale, $key: h4);
+    &:before {
+        position: absolute;
+        top: $top;
+        left: -10px;
+        content: '';
+        display: block;
+        width: 6px;
+        height: 12px;
+        background-color: $color;
+        border-radius: 6px 0 0 6px;
+    }
+}
+
+//transform: translate(-50%, -50%)
+
+@mixin badgeSemiCircle2($color) {
+    position: relative;
+    font-weight: bold;
+    color: $color;
+    font-size: map-get($map: $scale, $key: h4);
+    &:before {
+        position: absolute;
+        top: 0.3em;
+        left: -0.6em;
+        content: '';
+        display: block;
+        width: 0.35em;
+        height: 0.7em;
+        background-color: $color;
+        border-radius: 0.35em 0 0 0.35em;
+    }
+}
+
+
+
+// clearfix 
+
+@mixin clearfix {
+    &:after {
+        /* clearfix */
+        content: ""; 
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+
+
+
+
+
+

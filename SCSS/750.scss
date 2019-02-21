@@ -1,7 +1,44 @@
-@media only screen and (max-width: 750px) {	
-	h1.h1 {
-		color: blue;
+@media only screen and (max-width: 750px) {
+	
+	@import 
+		'EPUB/_a_pallet5',
+		'EPUB/_b_gs1',
+		'EPUB/_c_fonts',
+		'EPUB/_00_vmf';	
+
+	/* ----- layout ----- */
+
+	@mixin mobile-mainCol {
+		width: 100%;
+		max-width: none;
+		margin-right: auto;
+		margin-left: auto;
 	}
+
+	@mixin mobile-asideCol {
+		width: 100%;
+		max-width: none;
+		padding-right: 0;
+		margin-left: auto;
+		margin-right: auto;	
+		float: none;
+	}
+	
+	body {
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	h3.h3, h4.h4, h5.h5, p, table dl, ul, ol {
+		@include mobile-mainCol;
+	}
+
+	h2.h2 {
+		@include mobile-asideCol;
+		margin-top: ($baseSize * 2.75) + px;
+		text-align: left;
+	}	
 
 }
 

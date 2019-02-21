@@ -6,21 +6,24 @@
  xmlns:dcterms="http://purl.org/dc/terms/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:opf="http://www.idpf.org/2007/opf">	
-	<dc:title>CRJ 303 2e</dc:title>
+	<dc:title>BUS330</dc:title>
 	<dc:language xsi:type="dcterms:RFC3066">en</dc:language>
 	<meta name="cover" content="cover"/>
 	<dc:identifier id="dcidid">AUGEN103.14.1</dc:identifier>
-	<dc:subject>Corrections: An Introduction, Second Edition</dc:subject>
-	<dc:creator>Stan Stojkovic, Rick Lovell</dc:creator>
+	<dc:subject>Principles of Marketing</dc:subject>
+	<dc:creator>Sarah White</dc:creator>
 	<dc:publisher>Bridgepoint Education Inc.</dc:publisher>
 	<dc:date xsi:type="dcterms:W3CDTF">2018-02-26</dc:date>
-	<dc:rights>Copyright (c) 2019, 2013 Bridgepoint Education, Inc., all rights reserved</dc:rights>
+	<dc:rights>Copyright (c) 2019 Bridgepoint Education, Inc., all rights reserved</dc:rights>
    </metadata>
 
    <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />      
-    <item href="css/CRJ303_2e.css" id="CRJ303_2e.css" media-type="text/css" />
-    <item href="css/750.css" id="750.css" media-type="text/css" />
+    <item href="css/BUS330.css" id="BUS330.css" media-type="text/css" />
+     <item href="css/750.css" id="750.css" media-type="text/css" />
+   
+    <item href="images/constellation.jpg" id="xconstellation.jpg" media-type="image/jpeg" />
+    <item href="images/Vector_Devices.jpg" id="xVector_Devices.jpg" media-type="image/jpeg" />
    
     <item href="images/1.0.jpg" id="x1.0.jpg" media-type="image/jpeg" />
     <item href="images/1.1.jpg" id="x1.1.jpg" media-type="image/jpeg" />
@@ -29,27 +32,19 @@
 	<item href="images/1.4.jpg" id="x1.4.jpg" media-type="image/jpeg" />
     <item href="images/1.5.jpg" id="x1.5.jpg" media-type="image/jpeg" />
     <item href="images/1.6.jpg" id="x1.6.jpg" media-type="image/jpeg" />
-    <item href="images/1.7.jpg" id="x1.7.jpg" media-type="image/jpeg" />
-	<item href="images/1.8.jpg" id="x1.8.jpg" media-type="image/jpeg" />
-    <item href="images/1.9.jpg" id="x1.9.jpg" media-type="image/jpeg" />
-	
-    <item href="images/2.0.jpg" id="x2.0.jpg" media-type="image/jpeg" />
+    
+	<item href="images/2.0.jpg" id="x2.0.jpg" media-type="image/jpeg" />
     <item href="images/2.1.jpg" id="x2.1.jpg" media-type="image/jpeg" />
     <item href="images/2.2.jpg" id="x2.2.jpg" media-type="image/jpeg" />
     <item href="images/2.3.jpg" id="x2.3.jpg" media-type="image/jpeg" />
-	<item href="images/2.4.jpg" id="x2.4.jpg" media-type="image/jpeg" />
-    <item href="images/2.5.jpg" id="x2.5.jpg" media-type="image/jpeg" />
-    <item href="images/2.6.jpg" id="x2.6.jpg" media-type="image/jpeg" />
-	<item href="images/2.7.jpg" id="x2.7.jpg" media-type="image/jpeg" />
-	
-    <item href="images/3.0.jpg" id="x3.0.jpg" media-type="image/jpeg" />
+
+	<item href="images/3.0.jpg" id="x3.0.jpg" media-type="image/jpeg" />
     <item href="images/3.1.jpg" id="x3.1.jpg" media-type="image/jpeg" />
     <item href="images/3.2.jpg" id="x3.2.jpg" media-type="image/jpeg" />
     <item href="images/3.3.jpg" id="x3.3.jpg" media-type="image/jpeg" />
 	<item href="images/3.4.jpg" id="x3.4.jpg" media-type="image/jpeg" />
 	<item href="images/3.5.jpg" id="x3.5.jpg" media-type="image/jpeg" />
     <item href="images/3.6.jpg" id="x3.6.jpg" media-type="image/jpeg" />
-	<item href="images/3.7.jpg" id="x3.7.jpg" media-type="image/jpeg" />
 	
     <item href="images/4.0.jpg" id="x4.0.jpg" media-type="image/jpeg" />
     <item href="images/4.1.jpg" id="x4.1.jpg" media-type="image/jpeg" />
@@ -57,11 +52,6 @@
     <item href="images/4.3.jpg" id="x4.3.jpg" media-type="image/jpeg" />
     <item href="images/4.4.jpg" id="x4.4.jpg" media-type="image/jpeg" />
     <item href="images/4.5.jpg" id="x4.5.jpg" media-type="image/jpeg" />
-    <item href="images/4.6.jpg" id="x4.6.jpg" media-type="image/jpeg" />
-    <item href="images/4.7.jpg" id="x4.7.jpg" media-type="image/jpeg" />
-    <item href="images/4.8.jpg" id="x4.8.jpg" media-type="image/jpeg" />
-	<item href="images/4.9.jpg" id="x4.9.jpg" media-type="image/jpeg" />
-    <item href="images/4.10.jpg" id="x4.10.jpg" media-type="image/jpeg" />
     
 	<item href="images/5.0.jpg" id="x5.0.jpg" media-type="image/jpeg" />
     <item href="images/5.1.jpg" id="x5.1.jpg" media-type="image/jpeg" />
@@ -70,16 +60,12 @@
 	<item href="images/5.4.jpg" id="x5.4.jpg" media-type="image/jpeg" />
 	<item href="images/5.5.jpg" id="x5.5.jpg" media-type="image/jpeg" />
     <item href="images/5.6.jpg" id="x5.6.jpg" media-type="image/jpeg" />
-	<item href="images/5.7.jpg" id="x5.7.jpg" media-type="image/jpeg" />
-	<item href="images/5.8.jpg" id="x5.8.jpg" media-type="image/jpeg" />
    
     <item href="images/6.0.jpg" id="x6.0.jpg" media-type="image/jpeg" />
     <item href="images/6.1.jpg" id="x6.1.jpg" media-type="image/jpeg" />
     <item href="images/6.2.jpg" id="x6.2.jpg" media-type="image/jpeg" />
     <item href="images/6.3.jpg" id="x6.3.jpg" media-type="image/jpeg" />
 	<item href="images/6.4.jpg" id="x6.4.jpg" media-type="image/jpeg" />
-    <item href="images/6.5.jpg" id="x6.5.jpg" media-type="image/jpeg" />
-    <item href="images/6.6.jpg" id="x6.6.jpg" media-type="image/jpeg" />
 	
     <item href="images/7.0.jpg" id="x7.0.jpg" media-type="image/jpeg" />
     <item href="images/7.1.jpg" id="x7.1.jpg" media-type="image/jpeg" />
@@ -87,8 +73,6 @@
     <item href="images/7.3.jpg" id="x7.3.jpg" media-type="image/jpeg" />
     <item href="images/7.4.jpg" id="x7.4.jpg" media-type="image/jpeg" />
 	<item href="images/7.5.jpg" id="x7.5.jpg" media-type="image/jpeg" />
-    <item href="images/7.6.jpg" id="x7.6.jpg" media-type="image/jpeg" />
-    <item href="images/7.7.jpg" id="x7.7.jpg" media-type="image/jpeg" />
 	
     <item href="images/8.0.jpg" id="x8.0.jpg" media-type="image/jpeg" />
     <item href="images/8.1.jpg" id="x8.1.jpg" media-type="image/jpeg" />
@@ -96,51 +80,58 @@
     <item href="images/8.3.jpg" id="x8.3.jpg" media-type="image/jpeg" />
     <item href="images/8.4.jpg" id="x8.4.jpg" media-type="image/jpeg" />
     <item href="images/8.5.jpg" id="x8.5.jpg" media-type="image/jpeg" />
+	<item href="images/8.6.jpg" id="x8.6.jpg" media-type="image/jpeg" />
+    <item href="images/8.7.jpg" id="x8.7.jpg" media-type="image/jpeg" />
 	
     <item href="images/9.0.jpg" id="x9.0.jpg" media-type="image/jpeg" />
     <item href="images/9.1.jpg" id="x9.1.jpg" media-type="image/jpeg" />
     <item href="images/9.2.jpg" id="x9.2.jpg" media-type="image/jpeg" />
     <item href="images/9.3.jpg" id="x9.3.jpg" media-type="image/jpeg" />
-    <item href="images/9.4.jpg" id="x9.4.jpg" media-type="image/jpeg" />
-    <item href="images/9.5.jpg" id="x9.5.jpg" media-type="image/jpeg" />
-	<item href="images/9.6.jpg" id="x9.6.jpg" media-type="image/jpeg" />
-    <item href="images/9.7.jpg" id="x9.7.jpg" media-type="image/jpeg" />
 	
 	<item href="images/10.0.jpg" id="x10.0.jpg" media-type="image/jpeg" />
     <item href="images/10.1.jpg" id="x10.1.jpg" media-type="image/jpeg" />
     <item href="images/10.2.jpg" id="x10.2.jpg" media-type="image/jpeg" />
     <item href="images/10.3.jpg" id="x10.3.jpg" media-type="image/jpeg" />
 	<item href="images/10.4.jpg" id="x10.4.jpg" media-type="image/jpeg" />
-    <item href="images/10.5.jpg" id="x10.5.jpg" media-type="image/jpeg" />
-    <item href="images/10.6.jpg" id="x10.6.jpg" media-type="image/jpeg" />
-    <item href="images/10.7.jpg" id="x10.7.jpg" media-type="image/jpeg" />
-
-
+    
 	<item href="images/cover.jpg" id="xcover.jpg" media-type="image/jpeg" />
-	
-	<item href="images/author_Stojkovic.jpg" id="author_photo_1.jpg" media-type="image/jpeg" />
-	<item href="images/author_Lovell.jpg" id="author_photo_2.jpg" media-type="image/jpeg" />
-	
-	<item href="figures/fig_2.1.jpg" id="fig_2.1.jpg" media-type="image/jpeg" />
-	<item href="figures/fig_2.2.jpg" id="fig_2.2.jpg" media-type="image/jpeg" />
-	
+    
+    <item href="figures/fig_2.1.jpg" id="fig_2.1.jpg" media-type="image/jpeg" />
+    <item href="figures/fig_2.2.jpg" id="fig_2.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_2.3.jpg" id="fig_2.3.jpg" media-type="image/jpeg" />
+    <item href="figures/fig_2.4.jpg" id="fig_2.4.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_2.5.jpg" id="fig_2.5.jpg" media-type="image/jpeg" />
+
 	<item href="figures/fig_3.1.jpg" id="fig_3.1.jpg" media-type="image/jpeg" />
 	<item href="figures/fig_3.2.jpg" id="fig_3.2.jpg" media-type="image/jpeg" />
 	<item href="figures/fig_3.3.jpg" id="fig_3.3.jpg" media-type="image/jpeg" />
-	<item href="figures/fig_3.4.jpg" id="fig_3.4.jpg" media-type="image/jpeg" />
 
 	<item href="figures/fig_4.1.jpg" id="fig_4.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_4.2.jpg" id="fig_4.2.jpg" media-type="image/jpeg" />
 	
-	<item href="figures/fig_6.1.jpg" id="fig_6.1.jpg" media-type="image/jpeg" />
-	<item href="figures/fig_6.2.jpg" id="fig_6.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_5.1.jpg" id="fig_5.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_5.2.jpg" id="fig_5.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_5.3.jpg" id="fig_5.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_5.4.jpg" id="fig_5.4.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_5.5.jpg" id="fig_5.5.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_5.6.jpg" id="fig_5.6.jpg" media-type="image/jpeg" />
+	
+	<item href="figures/fig_7.1.jpg" id="fig_7.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_7.2.jpg" id="fig_7.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_7.3.jpg" id="fig_7.3.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_7.4.jpg" id="fig_7.4.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_7.5.jpg" id="fig_7.5.jpg" media-type="image/jpeg" />
 	
 	<item href="figures/fig_8.1.jpg" id="fig_8.1.jpg" media-type="image/jpeg" />
-	<item href="figures/fig_8.2.jpg" id="fig_8.2.jpg" media-type="image/jpeg" />
 	
-	<item href="figures/fig_10.1.jpg" id="fig_10.1.jpg" media-type="image/jpeg" />
-
-
-    <item href="front_matter.html" id="front_matter.html" media-type="application/xhtml+xml" />
+	<item href="figures/fig_9.1.jpg" id="fig_9.1.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_9.2.jpg" id="fig_9.2.jpg" media-type="image/jpeg" />
+	<item href="figures/fig_9.3.jpg" id="fig_9.3.jpg" media-type="image/jpeg" />
+ 
+	
+	<item href="cover.html" id="cover.html" media-type="application/xhtml+xml" />
+	<item href="toc.html" id="toc.html" media-type="application/xhtml+xml" />
+	<item href="front_matter.html" id="front_matter.html" media-type="application/xhtml+xml" />
     <item href="chapter_01.html" id="chapter_01.html" media-type="application/xhtml+xml" />
     <item href="chapter_02.html" id="chapter_02.html" media-type="application/xhtml+xml" />
     <item href="chapter_03.html" id="chapter_03.html" media-type="application/xhtml+xml" />
@@ -151,13 +142,16 @@
     <item href="chapter_08.html" id="chapter_08.html" media-type="application/xhtml+xml" />
     <item href="chapter_09.html" id="chapter_09.html" media-type="application/xhtml+xml" />
     <item href="chapter_10.html" id="chapter_10.html" media-type="application/xhtml+xml" />
-    <item href="back_matter.html" id="back_matter.html" media-type="application/xhtml+xml" />
+    <item href="back_matter.html" id="back_matter.html" media-type="application/xhtml+xml" />	
 </manifest>
 
 <spine toc="ncx">
-    <itemref idref="front_matter.html" />
+    
+    <itemref idref="cover.html" />
+	<itemref idref="toc.html" />
+	<itemref idref="front_matter.html" />
     <itemref idref="chapter_01.html" />
-    <itemref idref="chapter_02.html" />
+	<itemref idref="chapter_02.html" />
     <itemref idref="chapter_03.html" />
     <itemref idref="chapter_04.html" />
     <itemref idref="chapter_05.html" />
@@ -166,6 +160,7 @@
     <itemref idref="chapter_08.html" />
     <itemref idref="chapter_09.html" />
     <itemref idref="chapter_10.html" />
-    <itemref idref="back_matter.html" />
+    <itemref idref="back_matter.html" />	
+   
 </spine>
 </package>

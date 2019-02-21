@@ -1,6 +1,7 @@
+.DS_Store
 *.jpg
-EPUB/OEPS/figures/
-EPUB/OEPS/images/
+OEPS/figures/
+OEPS/images/
 Thumbs.db
 ASSETS/
 META-INF/
