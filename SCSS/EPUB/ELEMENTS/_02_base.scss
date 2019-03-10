@@ -22,13 +22,12 @@ h1, h2, h3, h4, h5, h6, div, p, ol, ul, li, table, tr, th, td, blockquote, dl, d
 
 /* Base Styles */
 h1, h2, h3, h4, h5, h6 {
-   font-family: $fontBody;
+   font-family: $fontHeading;
   -webkit-hyphens: none !important;
   -epub-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-  adobe-hyphenate: none;
 }
 
 img {
