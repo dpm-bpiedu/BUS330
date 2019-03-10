@@ -1,0 +1,52 @@
+// character
+
+/* --- character --- */
+
+span.bi {
+  font-weight: bold;
+  font-style: italic;
+}
+/*new class created for toc*/
+span.nbold {
+  font-weight: normal;
+}
+
+span.u {
+  text-decoration: underline;
+}
+
+span.ui {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+span.footnote-ref {
+  color: $color-9;
+}
+
+span.hyperlink {
+  color: $color-9;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+span.badge {
+  display: inline-block;
+  background-color: #000;
+  color: #FFF;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  border-radius: 0.5em;
+}
+
+span.col-number {
+  display: block;
+  float: left;
+  margin-left: -2em;
+}

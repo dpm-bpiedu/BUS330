@@ -20,7 +20,7 @@
 
 	<navPoint id="cover" playOrder="1">
 		<navLabel>
-			<text>Cover and Frontmatter</text>
+			<text>Cover and Front Matter</text>
 		</navLabel>
 		<content src="cover.html#cover"/>
 
@@ -32,16 +32,11 @@
 	    <content src="cover.html#fm"/>
 	</navPoint>
 	
-	<navPoint id="tableofcontent" playOrder="3">
-			<navLabel>
-			<text>Table of Content</text>
-			</navLabel>
-			<content src="toc.html#tableofcontent"/>
-	</navPoint>
+
 	
 	<navPoint id="aboutauthors" playOrder="4">
 	    <navLabel>
-		<text>About the Authors</text>
+		<text>About the Author</text>
 	    </navLabel>
 	    <content src="front_matter.html#aboutauthors"/>
 	</navPoint>
@@ -340,7 +335,7 @@
 
 <navPoint id="ch05" playOrder="51">
       <navLabel>
-	<text>Ch 5: PThe Marketing Mix: Price</text>
+	<text>Ch 5: The Marketing Mix: Price</text>
       </navLabel>
       <content src="chapter_05.html#ch05"/>
 

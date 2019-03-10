@@ -1,9 +1,15 @@
 /* Media Queries */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
   /* Font size increase */
   p {
     font-size: 18px;
   }
+	p.tx {
+  text-align: left;
+}
+	p {
+  margin-bottom: 1em;
+}
   ol, ul {
     font-size: 18px;
   }
@@ -53,6 +59,45 @@
   div.figure-box-right-thin p.caption {
     font-size: 16px;
 	   }
+
+
+
+
+div.video-right {
+	float: none;
+    width: 100%;
+	 max-width: 800px;
+    margin: 1em 0;
+}
+
+div.video-right-FOD {
+	float: none;
+    width: 100%;
+	 max-width: 800px;
+    margin: 1em 0;
+}
+
+div.video-left {
+	float: none;
+    width: 100%;
+	 max-width: 800px;
+    margin: 1em 0;
+}
+
+div.video-center {
+	float: none;
+    width: 100%;
+	 max-width: 800px;
+    margin: 1em 0;
+}
+
+div.video-center-small {
+	float: none;
+    width: 100%;
+	 max-width: 800px;
+    margin: 1em 0;
+}	
+	
 	
 div.figure-box {
   float: none;
@@ -120,14 +165,12 @@ div.photo-left {
 div.photo-box-left {
  float: none;
     width: 100%;
-	 max-width: 800px;
     margin: 1em 0;
 }
 
 div.photo-box-left-thin {
   float: none;
     width: 100%;
-	 max-width: 800px;
     margin: 1em 0;
 }
 
@@ -141,14 +184,12 @@ div.photo-right {
 div.photo-box-right {
    float: none;
     width: 100%;
-	 max-width: 800px;
     margin: 1em 0;
 }
 
 div.photo-box-right-thin {
    float: none;
     width: 100%;
-	 max-width: 800px;
     margin: 1em 0;
 }
 
@@ -163,5 +204,26 @@ div.photo-box-right-thin {
     font-size: 26px -2px;
   }
 	
+	
+	  div.co-box {
+    padding: 1em;
+  }
+  div.co-intro {
+    padding: 1em;
+  }
+  div.co-cn {
+    padding: 0 1em 1em 0;
+  }	
+p.media{
+	
+	line-height: 1.2em;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 1em;
+	text-align: left;
+	color: #000;
+	display: inline;
+}	
 	
 }

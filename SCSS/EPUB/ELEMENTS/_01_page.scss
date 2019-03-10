@@ -1,2 +1,11 @@
 // page
 
+body {
+    max-width: 964px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+[data-output="pdf"] {
+    display: none;
+}

@@ -1,0 +1,41 @@
+// special objects
+
+/* --- special objects --- */
+
+/* Equation Styles */
+.eq {
+  text-align: center;
+  margin: 1em auto;
+}
+
+/* Special Objects */
+.photo-cover {
+  width: 80%;
+  max-width: 500px;
+  float: none;
+  clear: both;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+
+
+.scroll-wrapper {
+  /* Allows wide, non-shrinkable objects to scroll horizontally on small screens */
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.two-column {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.icon {
+  float: left;
+  width: 50px;
+  margin: 0 1em 1em 0;
+}

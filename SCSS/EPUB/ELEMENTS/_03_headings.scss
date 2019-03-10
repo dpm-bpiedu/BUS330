@@ -1,2 +1,145 @@
 // headings
 
+/* --- headings --- */
+
+h1.h1 {
+  color: $color-1;
+  font-size: 16pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0.125em 0;
+  clear: both;
+}
+/*new class for toc*/
+h1.h1_toc {
+  color: $color-1;
+  font-size: 16pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  margin: 0 0 0.5em 0;
+  padding: 0.5em 0 0.125em 0;
+  clear: both;
+  border-bottom: 2px solid $color-15;
+}
+/*new class for toc*/
+h1.h1_green_toc {
+  color: $color-5;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  clear: none;
+  text-align: left;
+  border: none;
+  font-size: 14pt;
+}
+
+/*new class for toc*/
+h1.h1_right_toc {
+  color: $color-5;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  clear: none;
+  text-align: left;
+  border: none;
+  font-size: 14pt;
+  padding-left: 2.5em;
+}
+
+h2.h2 {
+  color: $color-1;
+  font-size: 14pt;
+  font-weight: bold;
+  font-style: normal;
+  margin: 1.5em 0 1em 0;
+  clear: none;
+}
+
+h3.h3 {
+  color: $color-1;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 1.5em 0 0.5em 0;
+  clear: none;
+}
+
+h4.h4 {
+  color: $color-1;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 1.5em 0 0.5em 0;
+  clear: both;
+}
+
+h1.eoc-h1 {
+  color: $color-1;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 0 1em 0;
+  clear: both;
+}
+
+h2.eoc-h2 {
+  color: $color-1;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 1.75em 0 0.5em 0;
+  clear: both;
+  text-align:center; /*newly added*/
+}
+
+h3.eoc-h3 {
+  color: $color-1;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  clear: both;
+}
+
+h2.pt {
+  /* Pre/Post Test */
+  color: $color-15;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 0 1em 0;
+  clear: both;
+  border-top: 2px solid $color-15;
+}
+/*new class for toc*/
+a.blink {
+	color: $color-15;
+}
+/*new class for toc*/
+a.glink {
+	color: $color-5;
+}
+/*new class for toc*/
+a.clink {
+	color: $color-1;
+}
+
+h2.co {
+  /* Learning Objectives and/or Chapter Outline heading */
+  color: $color-15;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 0 1em 0;
+  clear: both;
+  border-bottom: 2px solid $color-15;
+}
+
+h1.part {
+  color: $color-15;
+  font-size: 24pt;
+  font-weight: normal;/*Changed*/
+  font-style: normal;
+  text-align: center;
+  margin: 0 0 1em 0;
+  padding: 0 0 0.125em 0;
+  clear: both;
+}

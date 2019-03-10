@@ -1,0 +1,15 @@
+// vignettes
+
+/* --- vignettes --- */
+
+.vignette {
+  font-style: italic;
+}
+.vignette p, .vignette li, .vignette h1, .vignette h2, .vignette h3, .vignette h4, .vignette h5, .vignette h6 {
+  font-style: italic;
+}
+.vignette i, .vignette .bi, .vignette .ui, .vignette a {
+  /* Reverse italics */
+  font-style: normal;
+}
+

@@ -1,0 +1,36 @@
+// extract and pull quotes
+
+/* Extract Box */
+div.ext {
+  margin: 1em 2em;
+}
+div.ext h1.h1, div.ext h2.h2, div.ext h3.h3, div.ext h4.h4 {
+  margin: 1em 0;
+  border: none;
+}
+
+/* Pull Quotes */
+div.pull-quote,
+blockquote.pull-quote {
+  float: right;
+  width: 35%;
+  padding: 1em 0;
+  margin: 0 -1em 0.5em 1em;
+  border-top: 3px solid $color-4;
+  border-bottom: 3px solid $color-4;
+}
+div.pull-quote p.tx,
+blockquote.pull-quote p.tx {
+  color: $color-15;
+  margin: 0;
+  text-align: left;
+  font-style: italic;
+}
+div.pull-quote img,
+blockquote.pull-quote img {
+  float: left;
+  width: 50px;
+  margin: 0 1em 1em 0;
+}
+
+

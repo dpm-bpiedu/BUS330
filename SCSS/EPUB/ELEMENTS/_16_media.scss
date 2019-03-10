@@ -1,0 +1,128 @@
+// media
+
+/* --- media --- */
+
+.video-head {
+  color: #4C7776;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0.25em 0 0.5em 0;
+  padding: 5px;
+  clear: none;
+}
+
+div.video-caption {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0.5em 0 0.5em 0;
+	line-height: 1.3em;
+	padding: 5px;
+}
+
+div.video-right {
+	font-size: 12px;
+	border: thin solid #4C7776;
+	width: 430px;
+	float: right;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: 1em;
+	margin-bottom: 0.875em;
+	margin-left: 1em;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: left;
+}
+
+div.video-right-FOD {
+	font-size: 12px;
+	border: thin solid #4C7776;
+	width: 430px;
+	float: right;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: 1em;
+	margin-bottom: 0.875em;
+	margin-left: 1em;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: left;
+}
+
+div.video-left {
+	font-size: 12px;
+	border: thin solid #4C7776;
+	width: 575px;
+	float: left;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: 1em;
+	margin-bottom: 0.875em;
+	margin-left: 1em;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: right;
+}
+
+div.video-center {
+	font-size: 12px;
+	border: thin solid #4C7776;
+	width: 680px;
+	float: none;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: auto;
+	margin-bottom: 0.875em;
+	margin-left: auto;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: both;
+}
+
+div.video-center-small {
+	font-size: 12px;
+	border: thin solid #4C7776;
+	width: 440px;
+	float: none;
+	-moz-border-radius: 10px;
+	margin-top: 0.875em;
+	margin-right: auto;
+	margin-bottom: 0.875em;
+	margin-left: auto;
+	/* [disabled]border-radius: 25px; */
+	padding: 0.5em;
+	clear: both;
+}
+
+div.fig-centerSL {
+	width: 100%;
+	clear: both;
+	margin: auto;
+	max-width: 760px;
+	float: none;
+	padding: 0em;
+	min-width: 250px;
+	color: #999999;
+}
+
+ p.sl-caption
+{
+                margin-top: 1em;
+                font-size: 13px;
+                font-weight: normal;
+                line-height: 1.2em;
+} 
+
+p.media{
+	
+	line-height: 1.2em;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 0.6em;
+	text-align: left;
+	color: #000;
+	display: none;
+}

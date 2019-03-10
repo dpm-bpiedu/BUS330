@@ -130,7 +130,6 @@
  
 	
 	<item href="cover.html" id="cover.html" media-type="application/xhtml+xml" />
-	<item href="toc.html" id="toc.html" media-type="application/xhtml+xml" />
 	<item href="front_matter.html" id="front_matter.html" media-type="application/xhtml+xml" />
     <item href="chapter_01.html" id="chapter_01.html" media-type="application/xhtml+xml" />
     <item href="chapter_02.html" id="chapter_02.html" media-type="application/xhtml+xml" />
@@ -148,7 +147,6 @@
 <spine toc="ncx">
     
     <itemref idref="cover.html" />
-	<itemref idref="toc.html" />
 	<itemref idref="front_matter.html" />
     <itemref idref="chapter_01.html" />
 	<itemref idref="chapter_02.html" />
