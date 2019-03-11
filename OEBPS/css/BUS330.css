@@ -10,15 +10,16 @@ Basic Page Set up
   size: US-Letter;
   background: #ffffff;
   font-weight: normal;
+  margin: 0;
   @top-right {
     content: string(heading-top-right);
-    font-size: 12px; }
+    font-size: 9pt; }
   @top-left {
     content: string(heading-top-left);
-    font-size: 12px; }
+    font-size: 9pt; }
   @bottom {
     content: counter(page);
-    font-size: 12px; } }
+    font-size: 9pt; } }
 
 *[title] {
   prince-tooltip: attr(title); }
