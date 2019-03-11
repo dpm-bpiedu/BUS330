@@ -1,13 +1,85 @@
-/*! Template 2.1 Upper Level Modern */
-/*! Color Pallet 5 */
-/*! CSS Compiled on: 2014-12-10 14:12:12 -0500 */
-body {
-  max-width: 964px;
-  margin-right: auto;
-  margin-left: auto; }
+/* ---------------------------------------
 
-[data-output="pdf"] {
+PDF CSS
+
+-----------------------------------------*/
+/*
+Basic Page Set up
+*/
+@page {
+  size: US-Letter;
+  background: #ffffff;
+  font-weight: normal;
+  @top-right {
+    content: string(heading-top-right);
+    font-size: 12px; }
+  @top-left {
+    content: string(heading-top-left);
+    font-size: 12px; }
+  @bottom {
+    content: counter(page);
+    font-size: 12px; } }
+
+*[title] {
+  prince-tooltip: attr(title); }
+
+div.co-ct {
+  prince-bookmark-level: 1; }
+
+h1.h1 {
+  prince-bookmark-level: 2; }
+
+h2.h2 {
+  prince-bookmark-level: 3; }
+
+[data-heading='top-left'] {
+  string-set: heading-top-left content(); }
+
+[data-heading='top-right'] {
+  string-set: heading-top-right content(); }
+
+/*
+  Frontmatter page numbering
+  */
+@page pdfFM {
+  @bottom {
+    content: counter(page, lower-roman); } }
+
+#pdfFM {
+  display: block;
+  page: pdfFM; }
+
+/* 
+  Main content page numbering
+  */
+@page pdfMain {
+  @bottom {
+    content: counter(page, decimal); } }
+
+#pdfMain {
+  display: block;
+  page: pdfMain;
+  counter-reset: page 1; }
+
+[data-output="epub"] {
   display: none; }
+
+.breakBefore {
+  page-break-before: always; }
+
+.breakAfter {
+  page-break-after: always; }
+
+div.co-box {
+  page-break-before: always; }
+
+/*	
+	#pdfFM .h1 {
+		page-break-before: always;
+	}
+*/
+#pdfMain .new {
+  page-break-after: always; }
 
 /* --- base styles --- */
 * {
@@ -18,7 +90,7 @@ body {
 h1, h2, h3, h4, h5, h6, div, p, ol, ul, li, table, tr, th, td, blockquote, dl, dt, dd {
   color: #000000;
   font-family: Cambria, Times, "Times New Roman", serif;
-  font-size: 16px;
+  font-size: 11pt;
   font-weight: normal;
   font-style: normal;
   text-align: left;
@@ -931,7 +1003,7 @@ div.co {
 
 div.co-box {
   position: relative;
-  padding: 2em;
+  padding: 2em 0;
   color: #F0ECD7;
   background-color: #243065; }
 
@@ -944,7 +1016,8 @@ div.co-intro h2 {
   margin-top: 0; }
 
 div.co-intro li {
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.75em;
+  font-size: 10pt; }
 
 div.co-intro p.answer {
   color: #3f3f3f;
@@ -986,7 +1059,7 @@ div.co-cr p.credit {
 h1.ct {
   /* Chapter Title */
   color: #F0ECD7;
-  font-size: 35pt;
+  font-size: 30pt;
   /*font-weight: bold;*/
   width: 80%;
   /*Newly added*/
