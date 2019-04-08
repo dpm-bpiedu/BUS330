@@ -1,0 +1,83 @@
+// figure
+
+/* --- figures ---*/
+
+div.figure-box {
+  margin: 2em auto;
+  clear: both;
+  width: 75%;
+}
+
+div.figure-box-left {
+  width: 40%;
+  max-width: 500px;
+  margin: 0 1em 0.5em 0;
+  padding: 0;
+  float: left;
+  clear: right;
+}
+
+div.figure-box-left-thin {
+  position: relative;
+  width: 30%;
+  max-width: 400px;
+  margin: 0 1em 0.5em 0;
+  padding: 0;
+  float: left;
+  clear: left;
+}
+
+div.figure-box-right {
+  width: 40%;
+  max-width: 500px;
+  margin: 0 0 0.5em 1em;
+  padding: 0;
+  float: right;
+  clear: left;
+}
+
+div.figure-box-right-thin {
+  position: relative;
+  width: 30%;
+  max-width: 400px;
+  margin: 0 0 0.5em 1em;
+  padding: 0;
+  float: right;
+  clear: right;
+}
+
+div.figure {
+  margin: 1em auto;
+}
+
+div.figure-thin {
+  margin: 1em auto;
+  width: 50%;
+}
+
+
+/* Figure Box Text Styles */
+h4.figure-name {
+  color: $color-6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+  padding-bottom: 0.125em;
+  border-bottom: 2px solid $color-6;
+}
+
+h5.figure-title {
+  color: $color-15;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+div.figure-box p.caption,
+div.figure-box-left p.caption,
+div.figure-box-left-thin p.caption,
+div.figure-box-right p.caption,
+div.figure-box-right-thin p.caption {
+  color: $color-15;
+  font-size: 14px;
+  font-weight: normal;
+}

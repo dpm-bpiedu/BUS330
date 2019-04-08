@@ -1,0 +1,33 @@
+// variables, mixins, and functions
+
+// colors
+
+$color-1: map-get($map: $color, $key: a);
+$color-2: map-get($map: $color, $key: b);
+$color-3: map-get($map: $color, $key: c);
+$color-4: map-get($map: $color, $key: d);
+$color-5: map-get($map: $color, $key: e);
+$color-6: map-get($map: $color, $key: f);
+$color-7: map-get($map: $color, $key: g);
+$color-8: map-get($map: $color, $key: h);
+$color-9: map-get($map: $color, $key: i);
+$color-10: map-get($map: $color, $key: j);
+$color-11: map-get($map: $color, $key: k);
+$color-12: map-get($map: $color, $key: l);
+$color-13: map-get($map: $color, $key: m);
+$color-14: map-get($map: $color, $key: n);
+$color-15: map-get($map: $color, $key: o);
+
+//font families
+$cambria: Cambria, Times, "Times New Roman", serif;
+
+// fonts
+
+$fontHeading: $cambria;
+$fontBody: $cambria;
+$fontAccent: $cambria;
+
+// style 
+
+$fontBody: $cambria;
+$fontHeading: $cambria;

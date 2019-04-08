@@ -1,0 +1,103 @@
+// page
+
+/* ---------------------------------------
+
+PDF CSS
+
+-----------------------------------------*/
+
+/*
+Basic Page Set up
+*/
+
+@page {
+    size: US-Letter;
+    background: #ffffff;
+    font-weight: normal;
+    margin: 0;
+    @top-right {
+        content: string(heading-top-right);
+        font-size: 9pt;
+    }
+    @top-left {
+        content: string(heading-top-left);	
+        font-size: 9pt  
+    }
+    @bottom {
+        content: counter(page);
+        font-size: 9pt;
+    }
+  }
+
+
+  
+  *[title] { 
+      prince-tooltip: attr(title); 
+  }
+  
+  div.co-ct {prince-bookmark-level: 1}
+  h1.h1 {prince-bookmark-level:2}
+  h2.h2 {prince-bookmark-level:3}
+  
+  [data-heading='top-left'] {
+      string-set: heading-top-left content();
+  }
+  
+  [data-heading='top-right'] { 
+    string-set: heading-top-right content(); 
+  }
+  
+  /*
+  Frontmatter page numbering
+  */
+  
+  @page pdfFM {
+      @bottom {
+          content: counter(page, lower-roman);
+      }
+  }
+  
+  #pdfFM {
+      display: block;
+      page: pdfFM;
+  }
+  
+  /* 
+  Main content page numbering
+  */
+  
+  @page pdfMain {
+      @bottom {
+          content: counter(page, decimal);
+      }
+  }
+  
+  #pdfMain {
+      display: block;
+      page: pdfMain;
+      counter-reset: page 1;
+  }
+
+[data-output="epub"] {
+    display: none;
+}
+
+.breakBefore {
+	page-break-before: always;
+}
+
+.breakAfter {
+	page-break-after: always;
+}
+
+div.co-box {
+	page-break-before: always;
+}
+/*	
+	#pdfFM .h1 {
+		page-break-before: always;
+	}
+*/	
+	#pdfMain .new {
+		page-break-after: always;
+	}

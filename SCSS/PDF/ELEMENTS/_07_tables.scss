@@ -1,0 +1,136 @@
+// tables
+
+/* --- tables --- */
+
+h4.table-name {
+  margin-bottom: 0.1em;
+  clear: both;
+  color: $color-1;
+  font-weight: bold;
+  font-size:13pt;
+  margin-left:-0.4em;
+}
+
+h5.table-title {
+  margin-bottom: 0.5em;
+  clear: both;
+  color: $color-15;
+  font-weight: bold;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  margin: 0 auto 1em;
+  width: 99%;
+}
+table p.tx, table p.tx-i, table p.tx-b, table p.ext {
+  text-align: left;
+}
+
+td, th {
+  border: 1px solid $color-11; /*Changed*/
+  padding: 0.25em 0.5em;
+  vertical-align:top;
+}
+
+td.table-header,
+th.table-header {
+  background-color: $color-2;
+  color:$color-13;
+  font-weight: bold;  /*Newly added*/
+}
+
+td.table-subhead,
+th.table-subhead {
+  background-color: $color-2;
+}
+
+td.table-cell,
+td.table-cell-reg {
+  background-color: $color-13;
+}
+
+td.table-cell-alt {
+  background-color: $color-14;
+}
+
+tr:nth-child(even) td.table-cell {
+  background-color: $color-14;
+}
+
+td.no-border {
+  border: none !important;
+  padding-bottom: 0em;
+}
+
+td.border {
+  border: 1px solid $color-12;
+}
+
+table.no-collapse {
+  border-collapse: collapse; /*Changed*/
+  border-spacing: 0;
+}
+
+/* newly added CSS for center double images*/
+table.plain {
+	margin: 1em auto;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px none $color-15;
+	padding: 1em;
+	clear: both;
+ }
+
+/* Table Text Styles */
+p.table-footnote {
+  color: $color-15;
+  font-size: 12px;
+  margin-top: -0.5em; /*newly added*/
+}
+
+p.table-head {
+  color: $color-13;
+  font-weight: bold;
+  margin: 0;
+}
+
+p.table-head-center {
+  color: $color-13;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+table p.tx, table p.tx-center, table p.tx-left, table p.tx-right, table p.tx-i, table p.tx-b {
+  margin: 0;
+}
+
+.table-footnote2
+{
+ color:#626365;
+ font-size:10pt;
+
+ }
+
+td.table-glossary {
+	font-family:  Cambria, Times, "Times New Roman", serif;
+	text-align: left;
+	font-size: 16px;
+	padding-top: 0.5em;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-bottom: 0.5em;
+	vertical-align: top;
+	border: none;
+	color: #000;
+	width: none;
+}
+table.table-glossary {
+	border: none;
+	color: #000;
+	width: none;
+	padding-left: 0em;
+	padding-right: 0em;
+}

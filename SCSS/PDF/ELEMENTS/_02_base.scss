@@ -1,0 +1,45 @@
+// base
+
+/* --- base styles --- */
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, div, p, ol, ul, li, table, tr, th, td, blockquote, dl, dt, dd {
+  color: $color-15;
+  font-family: $fontBody;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+h1, h2, h3, h4, h5, h6 {
+   font-family: $fontHeading;
+  -webkit-hyphens: none !important;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: underline;
+  color: $color-9;
+}
+
+p {
+  margin-bottom: 1em;
+}
