@@ -147,7 +147,7 @@ var heads = {
 						stringNumber = strObj.string1 + " ";
 						stringText = strObj.string2;
 						headObj.text = objText;
-						newHTML = "<span data-head='tl'><span class='hidden'>Section </span>" + stringNumber + "</span>" + stringText + "<span data-head='tr'></span>";				   
+						newHTML = "<span data-head='tl'><span class='hidden'>Section </span>" + stringNumber + "</span> <span data-head='tr'>" + stringText + "</span>";				   
 					   } else {
 						 headObj.hasNumber = false;
 						 headObj.text = objText;

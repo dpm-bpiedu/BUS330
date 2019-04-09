@@ -33,10 +33,10 @@ h1.h1 {
 h2.h2 {
   prince-bookmark-level: 3; }
 
-[data-heading='top-left'] {
+[data-head='tl'] {
   string-set: heading-top-left content(); }
 
-[data-heading='top-right'] {
+[data-head='tr'] {
   string-set: heading-top-right content(); }
 
 /*
@@ -249,6 +249,9 @@ h1.part {
   margin: 0 0 1em 0;
   padding: 0 0 0.125em 0;
   clear: both; }
+
+span.hidden {
+  display: none; }
 
 /* --- paragraph --- */
 p.tx {

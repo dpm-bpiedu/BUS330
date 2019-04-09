@@ -45,11 +45,11 @@ Basic Page Set up
   h1.h1 {prince-bookmark-level:2}
   h2.h2 {prince-bookmark-level:3}
   
-  [data-heading='top-left'] {
+  [data-head='tl'] {
       string-set: heading-top-left content();
   }
   
-  [data-heading='top-right'] { 
+  [data-head='tr'] { 
     string-set: heading-top-right content(); 
   }
   
