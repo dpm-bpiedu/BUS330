@@ -75,6 +75,10 @@ h2.h2 {
 div.co-box {
   page-break-before: always; }
 
+ul#briefList a:after,
+ul#detailList a:after {
+  content: leader(".") target-counter(attr(href), page); }
+
 /* --- base styles --- */
 * {
   -moz-box-sizing: border-box;
@@ -499,14 +503,14 @@ td, th {
 
 td.table-header,
 th.table-header {
-  background-color: device-cmyk(0.4057, 0.2229, 0, 0.3137) F;
+  background-color: device-cmyk(0.4057, 0.2229, 0, 0.3137);
   color: device-cmyk(0, 0, 0, 0);
   font-weight: bold;
   /*Newly added*/ }
 
 td.table-subhead,
 th.table-subhead {
-  background-color: device-cmyk(0.4057, 0.2229, 0, 0.3137) F; }
+  background-color: device-cmyk(0.4057, 0.2229, 0, 0.3137); }
 
 td.table-cell,
 td.table-cell-reg {

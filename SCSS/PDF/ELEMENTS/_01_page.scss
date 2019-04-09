@@ -102,3 +102,8 @@ Basic Page Set up
 div.co-box {
 	page-break-before: always;
 }
+
+ul#briefList a:after,
+ul#detailList a:after {
+    content: leader('.') target-counter(attr(href), page);
+}
