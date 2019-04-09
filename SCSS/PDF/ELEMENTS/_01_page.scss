@@ -10,11 +10,17 @@ PDF CSS
 Basic Page Set up
 */
 
+// body {
+//     max-width: 964px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
 @page {
     size: US-Letter;
     background: #ffffff;
     font-weight: normal;
-    margin: 0;
+    margin: .75in;
     @top-right {
         content: string(heading-top-right);
         font-size: 9pt;
@@ -86,18 +92,13 @@ Basic Page Set up
 	page-break-before: always;
 }
 
+
+
 .breakAfter {
 	page-break-after: always;
 }
 
+/* break before */
 div.co-box {
 	page-break-before: always;
 }
-/*	
-	#pdfFM .h1 {
-		page-break-before: always;
-	}
-*/	
-	#pdfMain .new {
-		page-break-after: always;
-	}

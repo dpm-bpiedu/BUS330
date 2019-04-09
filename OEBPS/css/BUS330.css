@@ -10,7 +10,7 @@ Basic Page Set up
   size: US-Letter;
   background: #ffffff;
   font-weight: normal;
-  margin: 0;
+  margin: .75in;
   @top-right {
     content: string(heading-top-right);
     font-size: 9pt; }
@@ -71,16 +71,9 @@ h2.h2 {
 .breakAfter {
   page-break-after: always; }
 
+/* break before */
 div.co-box {
   page-break-before: always; }
-
-/*	
-	#pdfFM .h1 {
-		page-break-before: always;
-	}
-*/
-#pdfMain .new {
-  page-break-after: always; }
 
 /* --- base styles --- */
 * {
@@ -89,7 +82,7 @@ div.co-box {
   box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6, div, p, ol, ul, li, table, tr, th, td, blockquote, dl, dt, dd {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-family: Cambria, Times, "Times New Roman", serif;
   font-size: 11pt;
   font-weight: normal;
@@ -114,14 +107,14 @@ img {
 
 a {
   text-decoration: underline;
-  color: #1f3870; }
+  color: device-cmyk(0.7232, 0.5, 0, 0.5608); }
 
 p {
   margin-bottom: 1em; }
 
 /* --- headings --- */
-h1.h1 {
-  color: #243065;
+h1.h1, h1.tablecontent {
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 16pt;
   font-weight: bold;
   font-style: normal;
@@ -132,7 +125,7 @@ h1.h1 {
 
 /*new class for toc*/
 h1.h1_toc {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 16pt;
   font-weight: bold;
   font-style: normal;
@@ -140,11 +133,11 @@ h1.h1_toc {
   margin: 0 0 0.5em 0;
   padding: 0.5em 0 0.125em 0;
   clear: both;
-  border-bottom: 2px solid #000000; }
+  border-bottom: 2px solid device-cmyk(0, 0, 0, 1); }
 
 /*new class for toc*/
 h1.h1_green_toc {
-  color: #396040;
+  color: device-cmyk(0.4063, 0, 0.3333, 0.6235);
   font-weight: bold;
   margin: 0 0 1em 0;
   clear: none;
@@ -154,7 +147,7 @@ h1.h1_green_toc {
 
 /*new class for toc*/
 h1.h1_right_toc {
-  color: #396040;
+  color: device-cmyk(0.4063, 0, 0.3333, 0.6235);
   font-weight: bold;
   margin: 0 0 1em 0;
   clear: none;
@@ -164,7 +157,7 @@ h1.h1_right_toc {
   padding-left: 2.5em; }
 
 h2.h2 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 14pt;
   font-weight: bold;
   font-style: normal;
@@ -172,7 +165,7 @@ h2.h2 {
   clear: none; }
 
 h3.h3 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
@@ -180,7 +173,7 @@ h3.h3 {
   clear: none; }
 
 h4.h4 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -188,14 +181,14 @@ h4.h4 {
   clear: both; }
 
 h1.eoc-h1 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 20px;
   text-align: left;
   margin: 0 0 1em 0;
   clear: both; }
 
 h2.eoc-h2 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 14pt;
   font-weight: bold;
   margin: 1.75em 0 0.5em 0;
@@ -204,7 +197,7 @@ h2.eoc-h2 {
   /*newly added*/ }
 
 h3.eoc-h3 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-size: 18px;
   font-weight: bold;
   margin: 0 0 1em 0;
@@ -212,38 +205,38 @@ h3.eoc-h3 {
 
 h2.pt {
   /* Pre/Post Test */
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
   margin: 0 0 1em 0;
   clear: both;
-  border-top: 2px solid #000000; }
+  border-top: 2px solid device-cmyk(0, 0, 0, 1); }
 
 /*new class for toc*/
 a.blink {
-  color: #000000; }
+  color: device-cmyk(0, 0, 0, 1); }
 
 /*new class for toc*/
 a.glink {
-  color: #396040; }
+  color: device-cmyk(0.4063, 0, 0.3333, 0.6235); }
 
 /*new class for toc*/
 a.clink {
-  color: #243065; }
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039); }
 
 h2.co {
   /* Learning Objectives and/or Chapter Outline heading */
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
   margin: 0 0 1em 0;
   clear: both;
-  border-bottom: 2px solid #000000; }
+  border-bottom: 2px solid device-cmyk(0, 0, 0, 1); }
 
 h1.part {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-size: 24pt;
   font-weight: normal;
   /*Changed*/
@@ -320,7 +313,7 @@ p.ul {
   /* See list styles */ }
 
 p.src {
-  color: #3f3f3f;
+  color: device-cmyk(0, 0, 0, 0.7529);
   font-size: 12px;
   font-style: italic; }
 
@@ -329,7 +322,7 @@ p.src i, p.src .bi, p.src .ui, p.src a {
   font-style: normal; }
 
 p.credit {
-  color: #3f3f3f;
+  color: device-cmyk(0, 0, 0, 0.7529);
   font-size: 12px;
   font-style: italic;
   text-align: right;
@@ -384,10 +377,10 @@ span.ui {
   text-decoration: underline; }
 
 span.footnote-ref {
-  color: #1f3870; }
+  color: device-cmyk(0.7232, 0.5, 0, 0.5608); }
 
 span.hyperlink {
-  color: #1f3870;
+  color: device-cmyk(0.7232, 0.5, 0, 0.5608);
   -ms-word-break: break-all;
   word-break: break-all;
   /* Non standard for webkit */
@@ -478,7 +471,7 @@ p.ul {
 h4.table-name {
   margin-bottom: 0.1em;
   clear: both;
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-weight: bold;
   font-size: 13pt;
   margin-left: -0.4em; }
@@ -486,7 +479,7 @@ h4.table-name {
 h5.table-title {
   margin-bottom: 0.5em;
   clear: both;
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-weight: bold; }
 
 /* Table Styles */
@@ -499,38 +492,38 @@ table p.tx, table p.tx-i, table p.tx-b, table p.ext {
   text-align: left; }
 
 td, th {
-  border: 1px solid #939598;
+  border: 1px solid device-cmyk(0.0329, 0.0197, 0, 0.4039);
   /*Changed*/
   padding: 0.25em 0.5em;
   vertical-align: top; }
 
 td.table-header,
 th.table-header {
-  background-color: #6888AF;
-  color: #ffffff;
+  background-color: device-cmyk(0.4057, 0.2229, 0, 0.3137) F;
+  color: device-cmyk(0, 0, 0, 0);
   font-weight: bold;
   /*Newly added*/ }
 
 td.table-subhead,
 th.table-subhead {
-  background-color: #6888AF; }
+  background-color: device-cmyk(0.4057, 0.2229, 0, 0.3137) F; }
 
 td.table-cell,
 td.table-cell-reg {
-  background-color: #ffffff; }
+  background-color: device-cmyk(0, 0, 0, 0); }
 
 td.table-cell-alt {
-  background-color: #eff3f7; }
+  background-color: device-cmyk(0.0324, 0.0162, 0, 0.0314); }
 
 tr:nth-child(even) td.table-cell {
-  background-color: #eff3f7; }
+  background-color: device-cmyk(0.0324, 0.0162, 0, 0.0314); }
 
 td.no-border {
   border: none !important;
   padding-bottom: 0em; }
 
 td.border {
-  border: 1px solid #cfcfcf; }
+  border: 1px solid device-cmyk(0, 0, 0, 0.1882); }
 
 table.no-collapse {
   border-collapse: collapse;
@@ -542,24 +535,24 @@ table.plain {
   margin: 1em auto;
   border-collapse: collapse;
   width: 100%;
-  border: 1px none #000000;
+  border: 1px none device-cmyk(0, 0, 0, 1);
   padding: 1em;
   clear: both; }
 
 /* Table Text Styles */
 p.table-footnote {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-size: 12px;
   margin-top: -0.5em;
   /*newly added*/ }
 
 p.table-head {
-  color: #ffffff;
+  color: device-cmyk(0, 0, 0, 0);
   font-weight: bold;
   margin: 0; }
 
 p.table-head-center {
-  color: #ffffff;
+  color: device-cmyk(0, 0, 0, 0);
   font-weight: bold;
   text-align: center;
   margin: 0; }
@@ -682,7 +675,7 @@ div.photo-box-left p.caption,
 div.photo-box-left-thin p.caption,
 div.photo-box-right p.caption,
 div.photo-box-right-thin p.caption {
-  color: #18512E;
+  color: device-cmyk(0.7037, 0, 0.4321, 0.6824);
   font-weight: bold;
   margin-bottom: 0; }
 
@@ -742,15 +735,15 @@ div.figure-thin {
 
 /* Figure Box Text Styles */
 h4.figure-name {
-  color: #18512E;
+  color: device-cmyk(0.7037, 0, 0.4321, 0.6824);
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 0.75em;
   padding-bottom: 0.125em;
-  border-bottom: 2px solid #18512E; }
+  border-bottom: 2px solid device-cmyk(0.7037, 0, 0.4321, 0.6824); }
 
 h5.figure-title {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-weight: bold;
   margin-bottom: 0.5em; }
 
@@ -759,7 +752,7 @@ div.figure-box-left p.caption,
 div.figure-box-left-thin p.caption,
 div.figure-box-right p.caption,
 div.figure-box-right-thin p.caption {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   font-size: 14px;
   font-weight: normal; }
 
@@ -778,12 +771,12 @@ blockquote.pull-quote {
   width: 35%;
   padding: 1em 0;
   margin: 0 -1em 0.5em 1em;
-  border-top: 3px solid #9197b2;
-  border-bottom: 3px solid #9197b2; }
+  border-top: 3px solid device-cmyk(0.1854, 0.1517, 0, 0.302);
+  border-bottom: 3px solid device-cmyk(0.1854, 0.1517, 0, 0.302); }
 
 div.pull-quote p.tx,
 blockquote.pull-quote p.tx {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   margin: 0;
   text-align: left;
   font-style: italic; }
@@ -834,7 +827,7 @@ div.box-1:last-child, div.box-2:last-child, div.box-3:last-child, div.box-4:last
 
 /* Box Styles */
 div.box-1 {
-  background-color: #F0ECD7;
+  background-color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
   padding: 1.5em;
   -moz-border-radius: 1.5em;
   -webkit-border-radius: 1.5em;
@@ -845,7 +838,7 @@ div.box-1 {
 
 /*Newly created class*/
 div.box_qtc {
-  background-color: #f1f5e6;
+  background-color: device-cmyk(0.0163, 0, 0.0612, 0.0392);
   padding: 1.5em;
   -moz-border-radius: 1.5em;
   -webkit-border-radius: 1.5em;
@@ -855,16 +848,16 @@ div.box_qtc {
   clear: both; }
 
 div.box-1 h1.h1 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
   clear: none;
   text-align: left;
-  border-bottom: 2px solid #243065; }
+  border-bottom: 2px solid device-cmyk(0.6436, 0.5248, 0, 0.6039); }
 
 div.box-1 h2.h2 {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   margin: 1.5em 0 1em 0;
   clear: none; }
 
@@ -879,7 +872,7 @@ div.box-2 {
   clear: both; }
 
 div.box-2 h1.h1 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
@@ -888,13 +881,13 @@ div.box-2 h1.h1 {
   border: none; }
 
 div.box-2 h2.h2 {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   margin: 1.5em 0 1em 0;
   clear: none; }
 
 /*Newly created class*/
 div.box-1 h1.h1_green {
-  color: #396040;
+  color: device-cmyk(0.4063, 0, 0.3333, 0.6235);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
@@ -905,7 +898,7 @@ div.box-1 h1.h1_green {
 
 /*Newly created class*/
 div.box_qtc h1.h1_green {
-  color: #396040;
+  color: device-cmyk(0.4063, 0, 0.3333, 0.6235);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
@@ -915,7 +908,7 @@ div.box_qtc h1.h1_green {
   font-size: 16pt; }
 
 div.box-3 {
-  background-color: #f4f4f7;
+  background-color: device-cmyk(0.0121, 0.0121, 0, 0.0314);
   padding: 1.5em;
   -moz-border-radius: 1.5em;
   -webkit-border-radius: 1.5em;
@@ -925,7 +918,7 @@ div.box-3 {
   clear: both; }
 
 div.box-3 h1.h1 {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
@@ -934,7 +927,7 @@ div.box-3 h1.h1 {
   border: none; }
 
 div.box-3 h2.h2 {
-  color: #000000;
+  color: device-cmyk(0, 0, 0, 1);
   margin: 1.5em 0 1em 0;
   clear: none; }
 
@@ -949,16 +942,16 @@ div.box-4 {
   clear: both; }
 
 div.box-4 h1.h1 {
-  color: #ffffff;
+  color: device-cmyk(0, 0, 0, 0);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
   clear: none;
   text-align: left;
-  border-bottom: 2px solid #ffffff; }
+  border-bottom: 2px solid device-cmyk(0, 0, 0, 0); }
 
 div.box-4 h2.h2 {
-  color: #ffffff;
+  color: device-cmyk(0, 0, 0, 0);
   margin: 1.5em 0 1em 0;
   clear: none; }
 
@@ -973,7 +966,7 @@ div.box-5 {
   clear: both; }
 
 div.box-5 h1.h1 {
-  color: #ffffff;
+  color: device-cmyk(0, 0, 0, 0);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
@@ -982,7 +975,7 @@ div.box-5 h1.h1 {
   border: none; }
 
 div.box-5 h2.h2 {
-  color: #ffffff;
+  color: device-cmyk(0, 0, 0, 0);
   margin: 1.5em 0 1em 0;
   clear: none; }
 
@@ -1005,8 +998,8 @@ div.co {
 div.co-box {
   position: relative;
   padding: 2em 0;
-  color: #F0ECD7;
-  background-color: #243065; }
+  color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
+  background-color: device-cmyk(0.6436, 0.5248, 0, 0.6039); }
 
 div.co-intro {
   padding: 2em;
@@ -1021,7 +1014,7 @@ div.co-intro li {
   font-size: 10pt; }
 
 div.co-intro p.answer {
-  color: #3f3f3f;
+  color: device-cmyk(0, 0, 0, 0.7529);
   font-style: italic; }
 
 div.co-cn {
@@ -1046,7 +1039,7 @@ div.co-cr {
   /*Newly added*/ }
 
 div.co-cr p.credit {
-  color: #F0ECD7;
+  color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
   margin: 0; }
 
 .co-quote {
@@ -1059,7 +1052,7 @@ div.co-cr p.credit {
 
 h1.ct {
   /* Chapter Title */
-  color: #F0ECD7;
+  color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
   font-size: 30pt;
   /*font-weight: bold;*/
   width: 80%;
@@ -1075,7 +1068,7 @@ h1.ct {
 
 span.cn {
   /* Chapter Number */
-  color: #F0ECD7;
+  color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
   font-size: 72pt;
   line-height: 0.85;
   vertical-align: top; }
@@ -1094,7 +1087,7 @@ dl.key-terms {
   margin: 1em 0; }
 
 dt.term {
-  color: #1f3870;
+  color: device-cmyk(0.7232, 0.5, 0, 0.5608);
   font-weight: bold;
   cursor: pointer;
   text-decoration: underline; }
