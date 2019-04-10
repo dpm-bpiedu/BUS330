@@ -17,8 +17,8 @@ div.photo-box-cover {
 }
 
 div.photo-left {
-  width: 45%;
-  max-width: 600px;
+  width: $photo-md;
+  //max-width: 600px;
   margin: 0 1em 0.5em 0;
   padding: 0;
   float: left;
@@ -26,8 +26,8 @@ div.photo-left {
 }
 
 div.photo-box-left {
-  width: 45%;
-  max-width: 600px;
+  width: $photo-md;
+  //max-width: 600px;
   margin: 0 1em 0.5em 0;
   padding: 0;
   float: left;
@@ -35,8 +35,8 @@ div.photo-box-left {
 }
 
 div.photo-box-left-thin {
-  width: 30%;
-  max-width: 500px;
+  width: photo-sm;
+  //max-width: 500px;
   margin: 0 1em 0.5em 0;
   padding: 0;
   float: left;
@@ -44,8 +44,8 @@ div.photo-box-left-thin {
 }
 
 div.photo-right {
-  width: 45%;
-  max-width: 600px;
+  width: $photo-md;
+  //max-width: 600px;
   margin: 0 0 0.5em 1em;
   padding: 0;
   float: right;
@@ -53,8 +53,8 @@ div.photo-right {
 }
 
 div.photo-box-right {
-  width: 45%;
-  max-width: 600px;
+  width: $photo-md;
+  //max-width: 600px;
   margin: 0 0 0.5em 1em;
   padding: 0;
   float: right;
@@ -62,8 +62,8 @@ div.photo-box-right {
 }
 
 div.photo-box-right-thin {
-  width: 30%;
-  max-width: 500px;
+  width: $photo-sm;
+  //max-width: 500px;
   margin: 0 0 0.5em 1em;
   padding: 0;
   float: right;
@@ -72,7 +72,7 @@ div.photo-box-right-thin {
 
 div.photo-right-v {
 	float: right;
-	width: 50%;
+	width: $photo-xl;
 	padding: 0em;
 	margin-right: 0em;
 	margin-left: 1em;
@@ -86,7 +86,7 @@ div.photo-right-v {
 
  div.photo-box-vector {
 	margin: 1em auto;
-	width: 35%;
+	width: $photo-sm;
 	clear: both;
 }
 
@@ -113,7 +113,7 @@ div.photo-box-right-thin p.caption {
 .photo-caption
  {
  color:#1a5b35;
- font-size:12;
+ font-size: 10pt;
  font-weight:bold;
  margin-top: 0em;
  padding-top: 0em;
