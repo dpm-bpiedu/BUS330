@@ -23,27 +23,31 @@ Basic Page Set up
     margin: 1in;
     @top-right {
         content: string(heading-top-right);
+        margin-top: .65in;
+        font-family: $fontBody;
         font-size: 9pt;
     }
     @top-left {
         content: string(heading-top-left);	
+        margin-top: .65in;
+        font-family: $fontBody;
         font-size: 9pt  
     }
     @bottom {
         content: counter(page);
+        margin-bottom: .65in;
+        font-family: $fontBody;
         font-size: 9pt;
     }
-  }
-
-
-  
+}
+ 
   *[title] { 
       prince-tooltip: attr(title); 
   }
   
-  div.co-ct {prince-bookmark-level: 1}
-  h1.h1 {prince-bookmark-level:2}
-  h2.h2 {prince-bookmark-level:3}
+//   div.co-ct {prince-bookmark-level: 1}
+//   h1.h1 {prince-bookmark-level:2}
+//   h2.h2 {prince-bookmark-level:3}
   
   [data-head='tl'] {
       string-set: heading-top-left content();
