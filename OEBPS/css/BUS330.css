@@ -979,13 +979,13 @@ div.box-5 h2.h2 {
   clear: none; }
 
 h2.Case-Study {
-  color: #243065;
+  color: device-cmyk(0.6436, 0.5248, 0, 0.6039);
   font-weight: normal;
   margin: 0 0 1em 0;
   border: none;
   clear: none;
   text-align: left;
-  border-bottom: 2px solid #243065; }
+  border-bottom: 2px solid device-cmyk(0.6436, 0.5248, 0, 0.6039); }
 
 /* --- co --- */
 div.co {
