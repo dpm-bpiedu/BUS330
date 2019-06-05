@@ -108,6 +108,7 @@ img {
 
 a {
   text-decoration: underline;
+  color: black;
   color: device-cmyk(0.7232, 0.5, 0, 0.5608); }
 
 p {
@@ -678,7 +679,7 @@ div.photo-box-right-thin p.caption {
   margin-bottom: 0; }
 
 .photo-caption {
-  color: #1a5b35;
+  color: device-cmyk(0.7037, 0, 0.4321, 0.6824);
   font-size: 10pt;
   font-weight: bold;
   margin-top: 0em;
@@ -860,7 +861,7 @@ div.box-1 h2.h2 {
   clear: none; }
 
 div.box-2 {
-  background-color: #f1f5e9;
+  background-color: device-cmyk(0.0163, 0, 0.0612, 0.0392);
   padding: 1.5em;
   -moz-border-radius: 1.5em;
   -webkit-border-radius: 1.5em;
