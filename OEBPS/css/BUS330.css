@@ -6,11 +6,16 @@ PDF CSS
 /*
 Basic Page Set up
 */
+body {
+  max-width: 8.5in;
+  margin-left: auto;
+  margin-right: auto; }
+
 @page {
   size: US-Letter;
   background: #ffffff;
   font-weight: normal;
-  margin: 1.15in;
+  margin: 1in;
   @top-right {
     content: string(heading-top-right);
     margin-top: .65in;
