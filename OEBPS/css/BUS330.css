@@ -10,20 +10,20 @@ Basic Page Set up
   size: US-Letter;
   background: #ffffff;
   font-weight: normal;
-  margin: 1in;
+  margin: 1.15in;
   @top-right {
     content: string(heading-top-right);
-    margin-top: .75in;
+    margin-top: .65in;
     font-family: Cambria, Times, "Times New Roman", serif;
     font-size: 9pt; }
   @top-left {
     content: string(heading-top-left);
-    margin-top: .75in;
+    margin-top: .65in;
     font-family: Cambria, Times, "Times New Roman", serif;
     font-size: 9pt; }
   @bottom {
     content: counter(page);
-    margin-bottom: .75in;
+    margin-bottom: .65in;
     font-family: Cambria, Times, "Times New Roman", serif;
     font-size: 9pt; } }
 
