@@ -1,0 +1,24 @@
+{
+  "name": "bus330",
+  "version": "1.0.0",
+  "description": "epub to pdf examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpm-bpiedu/BUS330.git"
+  },
+  "keywords": [
+    "[\"epub\"",
+    "\"pdf\"",
+    "\"docraptor\"]"
+  ],
+  "author": "dm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpm-bpiedu/BUS330/issues"
+  },
+  "homepage": "https://github.com/dpm-bpiedu/BUS330#readme"
+}
