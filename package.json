@@ -24,5 +24,8 @@
   "homepage": "https://github.com/dpm-bpiedu/BUS330#readme",
   "devDependencies": {
     "dotenv": "^8.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
