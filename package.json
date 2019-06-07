@@ -4,7 +4,8 @@
   "description": "epub to pdf examples",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node SERVER/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/dpm-bpiedu/BUS330/issues"
   },
-  "homepage": "https://github.com/dpm-bpiedu/BUS330#readme"
+  "homepage": "https://github.com/dpm-bpiedu/BUS330#readme",
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
 }
