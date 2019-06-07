@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/dpm-bpiedu/BUS330#readme",
   "devDependencies": {
+    "dayjs": "^1.8.14",
     "dotenv": "^8.0.0"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "request": "^2.88.0"
   }
 }
