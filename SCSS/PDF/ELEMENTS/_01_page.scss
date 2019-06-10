@@ -20,10 +20,10 @@ body {
     size: US-Letter;
     background: #ffffff;
     font-weight: normal;
-    margin: 1in;
+    margin: .75in;
     @top-right {
         content: string(heading-top-right);
-        margin-top: .65in;
+        margin-top: .6in;
         font-family: $fontBody;
         font-size: 9pt;
     }

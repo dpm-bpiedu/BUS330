@@ -15,10 +15,10 @@ body {
   size: US-Letter;
   background: #ffffff;
   font-weight: normal;
-  margin: 1in;
+  margin: .75in;
   @top-right {
     content: string(heading-top-right);
-    margin-top: .65in;
+    margin-top: .6in;
     font-family: Cambria, Times, "Times New Roman", serif;
     font-size: 9pt; }
   @top-left {
@@ -1001,7 +1001,7 @@ div.co {
 
 div.co-box {
   position: relative;
-  padding: 2em 0;
+  padding: 1em 0;
   color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
   background-color: device-cmyk(0.6436, 0.5248, 0, 0.6039); }
 
@@ -1057,7 +1057,7 @@ div.co-cr p.credit {
 h1.ct {
   /* Chapter Title */
   color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
-  font-size: 30pt;
+  font-size: 26pt;
   /*font-weight: bold;*/
   width: 80%;
   /*Newly added*/
@@ -1073,7 +1073,7 @@ h1.ct {
 span.cn {
   /* Chapter Number */
   color: device-cmyk(0, 0.0167, 0.1042, 0.0588);
-  font-size: 72pt;
+  font-size: 60pt;
   line-height: 0.85;
   vertical-align: top; }
 
