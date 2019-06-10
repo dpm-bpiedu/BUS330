@@ -6,11 +6,6 @@ PDF CSS
 /*
 Basic Page Set up
 */
-body {
-  max-width: 8.5in;
-  margin-left: auto;
-  margin-right: auto; }
-
 @page {
   size: US-Letter;
   background: #ffffff;
@@ -80,6 +75,9 @@ div.co-box {
 ul#briefList a:after,
 ul#detailList a:after {
   content: leader(".") target-counter(attr(href), page); }
+
+[data-output='epub'] {
+  display: none; }
 
 /* --- base styles --- */
 * {
@@ -1098,6 +1096,9 @@ dt.term {
 
 dd.definition {
   margin: 0 0 1em 1em; }
+
+a.answerToggle {
+  text-decoration: none; }
 
 /* --- special objects --- */
 /* Equation Styles */

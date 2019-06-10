@@ -10,11 +10,11 @@ PDF CSS
 Basic Page Set up
 */
 
-body {
-    max-width: 8.5in;
-    margin-left: auto;
-    margin-right: auto;
-}
+// body {
+//     max-width: 8.5in;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
 
 @page {
     size: US-Letter;
@@ -110,4 +110,8 @@ div.co-box {
 ul#briefList a:after,
 ul#detailList a:after {
     content: leader('.') target-counter(attr(href), page);
+}
+
+[data-output='epub'] {
+    display: none;
 }
