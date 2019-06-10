@@ -571,7 +571,7 @@ table p.tx, table p.tx-center, table p.tx-left, table p.tx-right, table p.tx-i, 
   margin: 0; }
 
 .table-footnote2 {
-  color: #626365;
+  color: device-cmyk(0, 0, 0, 0.7529);
   font-size: 10pt; }
 
 td.table-glossary {
@@ -1007,7 +1007,7 @@ div.co-box {
 
 div.co-intro {
   padding: 2em;
-  background-color: #f7f5eb; }
+  background-color: device-cmyk(0.0163, 0, 0.0612, 0.0392); }
 
 div.co-intro h2 {
   padding-bottom: 0.5em;
